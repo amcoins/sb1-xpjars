@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-navy-600: #2c3e50;
+  --color-green-500: #27ae60;
+  --color-beige-50: #f9f7f4;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-beige-50);
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
